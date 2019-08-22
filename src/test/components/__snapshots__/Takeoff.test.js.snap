@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Takeoff component should render Landing component 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={4}
+  >
+    <WithStyles(ForwardRef(Avatar))
+      className="makeStyles-avatar-1"
+    >
+      <FlightTakeoffIcon />
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={8}
+  >
+    <WithStyles(ForwardRef(Typography))>
+      some name Airport
+    </WithStyles(ForwardRef(Typography))>
+    <Styled(MuiBox)
+      display="flex"
+      justifyContent="space-between"
+    >
+      <Styled(MuiBox)
+        color="text.primary"
+      >
+        Terminal C
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        className="makeStyles-traffic-2"
+      >
+        buzy
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing component should render Landing component 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="makeStyles-root-1"
+  elevation={0}
+  square={true}
+>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="space-between"
+  >
+    <WithStyles(ForwardRef(Typography))>
+      1234567
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-boardingTime-3"
+    >
+      22:21
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    bgcolor="background.paper"
+    borderBottom={1}
+    borderTop={1}
+    display="flex"
+    flexDirection="row"
+    m={1}
+    p={1}
+  >
+    <Styled(MuiBox)
+      className="makeStyles-box-5"
+    >
+      an origin
+    </Styled(MuiBox)>
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(Avatar))
+        className="makeStyles-landingIcon-4"
+      >
+        <FlightLandIcon />
+      </WithStyles(ForwardRef(Avatar))>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      className="makeStyles-box-5"
+    >
+      a destination
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="space-between"
+  >
+    <WithStyles(ForwardRef(Typography))>
+      a gate
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))>
+      a seat
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-onTime-2"
+    >
+      onTime
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Paper))>
+`;

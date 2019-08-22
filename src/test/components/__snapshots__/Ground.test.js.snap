@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ground component should render Ground component 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={2}
+  >
+    <WithStyles(ForwardRef(Avatar))
+      className="makeStyles-avatar-1"
+    >
+      <DepartureBoardIcon />
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={10}
+  >
+    <WithStyles(ForwardRef(Typography))>
+      Pick up from
+    </WithStyles(ForwardRef(Typography))>
+    <Styled(MuiBox)
+      color="text.primary"
+    >
+      some address
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
